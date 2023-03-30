@@ -6,9 +6,8 @@ import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const description =
-    "Which Pokémon is the roundest?";
-  const title = "Roundest Pokémon - Public Poll";
-  const imageMetaURL = "https://roundest.t3.gg/spheal.png";
+    "Which Pokémon is the cutest?";
+  const title = "Cutest Pokémon";
 
   return (
     <PlausibleProvider domain="roundest.t3.gg">
