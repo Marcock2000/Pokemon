@@ -1,32 +1,28 @@
-# Roundest - Which Pokémon is most round?
+# Create T3 App
 
-Answering all of life's toughest questions
+This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
-## Why?
+## What's next? How do I make an app with this?
 
-Why not. I [streamed most of the creation of this project if you're curious](https://www.youtube.com/watch?v=PKy2lYEnhgs). Regardless of how you feel about the idea, I think the technical details of this implementation are worth learning from.
+We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
 
-## Getting Started
+If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
 
-Prerequisite:
+- [Next.js](https://nextjs.org)
+- [NextAuth.js](https://next-auth.js.org)
+- [Prisma](https://prisma.io)
+- [Tailwind CSS](https://tailwindcss.com)
+- [tRPC](https://trpc.io)
 
-- MySQL local database (or Planetscale connection using PScale CLI)
-- npm
+## Learn More
 
-Setup
+To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
 
-1. Clone repo
-1. `npm install`
-1. Create `.env` file if one does not already exist
-1. Add connection URLs for both database and shadow db to .env ([example .env file here](https://gist.github.com/TheoBr/e450c52a52a9f9c9b49ef07212689685))
-1. Initialize database - `npx prisma migrate dev`
-1. Initialize base data set - `npm run ts-node ./scripts/fill-db.ts`
-1. Run dev server `npm run dev`
+- [Documentation](https://create.t3.gg/)
+- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
 
-## TODO
+You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
 
-- [x] Use next/image to handle image caching and better rendering
-- [x] Persist data fetched from PokemonAPI
-- [x] Create the results page with counting/sorting
-- [x] Better loading state between votes
-# Pokemon
+## How do I deploy this?
+
+Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
