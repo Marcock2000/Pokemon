@@ -6,7 +6,7 @@ import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const description =
-    "We're here to answer the eternal question: What Pokémon is roundest?";
+    "Which Pokémon is the roundest?";
   const title = "Roundest Pokémon - Public Poll";
   const imageMetaURL = "https://roundest.t3.gg/spheal.png";
 
