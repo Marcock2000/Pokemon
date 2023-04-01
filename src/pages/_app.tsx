@@ -1,7 +1,6 @@
 import "tailwindcss/tailwind.css";
 import "../styles/global.css";
 import type { AppProps } from "next/app";
-import PlausibleProvider from "next-plausible";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {

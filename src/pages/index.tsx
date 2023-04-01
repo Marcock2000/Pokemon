@@ -51,6 +51,8 @@ export default function Home() {
     <div className="h-screen w-screen flex flex-col justify-between items-center relative">
       <Head>
         <title>Cutest Pokemon</title>
+        <script defer data-domain="cutest-pokemon-psi.vercel.app" src="https://plausible.io/js/script.js"></script>
+
       </Head>
       <div className="text-2xl font-mono text-center mt-20">Which Pokémon is cuter?</div>
       {pokemonPair && (
