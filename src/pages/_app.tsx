@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const title = "Cutest Pokémon";
 
   return (
-    <PlausibleProvider domain="roundest.t3.gg">
+      <div>
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
@@ -46,7 +46,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
       </Head>
       <Component {...pageProps} />
-    </PlausibleProvider>
+      </div>
   );
 }
 
